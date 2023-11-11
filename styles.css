@@ -14,7 +14,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box; /* Adicionado para garantir que as bordas e o preenchimento não aumentem a largura total */
+    box-sizing: border-box;
 }
 
 h1 {
@@ -27,7 +27,14 @@ p {
     color: #7f8c8d;
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Reduzi o margin-bottom para equilibrar os espaçamentos */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
 }
 
 #downloadButton {
@@ -41,8 +48,30 @@ p {
     border-radius: 5px;
     font-size: 18px;
     transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adicionei um espaçamento acima do botão */
 }
 
 #downloadButton:hover {
     background-color: #2980b9;
+}
+
+/* Adicionando regras de mídia para ajustar o layout em dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #downloadButton {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
 }

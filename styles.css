@@ -41,7 +41,21 @@ img {
     width: 33%;
 }
 
-#downloadButton {
+#downloadButton1 {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#downloadButton2 {
     display: inline-block;
     width: 100%;
     max-width: 200px;

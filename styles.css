@@ -37,6 +37,10 @@ img {
     margin: 20px auto; /* Centralizei a imagem e adicionei margem superior e inferior */
 }
 
+#logoUfv {
+    width: 33%;
+}
+
 #downloadButton {
     display: inline-block;
     width: 100%;
@@ -48,7 +52,6 @@ img {
     border-radius: 5px;
     font-size: 18px;
     transition: background-color 0.3s ease;
-    margin-top: 20px;
 }
 
 #downloadButton:hover {

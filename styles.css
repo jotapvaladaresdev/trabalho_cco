@@ -52,6 +52,8 @@ img {
     border-radius: 5px;
     font-size: 18px;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #downloadButton:hover {
